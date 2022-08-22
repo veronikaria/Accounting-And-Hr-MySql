@@ -32,3 +32,32 @@ Create and fill in the relationship in the database of the human resourses depar
     * Discipline
     * Type of loading (lection, seminar or practical)
 
+
+## II. Database Accounting
+
+1. Department
+    * Identifier - Primary key
+    * Name of the department
+
+2. Post
+    * Name of post - Primary key
+    * Salary 
+
+3. Employee
+    * Personnel number - Primary key
+    *	Full name 
+    * Taxpayer number (can contains only 12 characters)
+    * Gender ('m' or 'f')
+    *	Birthdate 
+    *	Department
+    *	Post
+    *	Startdate
+    *	Previous experience 
+ 
+4. Child
+    * Identifier - Primary key
+    *	Personnel number of the parent
+    *	Full name
+    *	Gender ('m' or 'f')
+    *	Birthdate 
+ 
